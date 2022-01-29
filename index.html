@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emma Badger's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>
+      Emma Badger
+    </h1>
+  </header>
+  <div class="dropdown">
+    <button onclick="onclick_dropdown()" class="dropbtn">More Information</button>
+    <div id="linksdropdown" class="dropdown-content">
+      <a href="Resume2022EmmaBadger.pdf" target="_blank">View my resume</a>
+      <a href="https://en.wikipedia.org/wiki/User_experience_design">Learn more about UX</a>
+      <a href="https://www.youtube.com/watch?v=c9Wg6Cb_YlU" target="_blank">See Video Samples</a>
+    </div>
+  </div>
+  <h2>UX</h2>
+  <ul class="UXlist">
+    <li><em>Project Ideation and Brainstorming</em></li>
+    <li><em>Wireframes and Prototypes</em></li>
+    <li><em>Iteration and Final Touches</em></li>
+  </ul>
+  <button class="see_more_button">See Samples</button>
+  <h2>
+    Research
+  </h2>
+  <ul>
+    <li><em>User Personas</em></li>
+    <li><em>Market Research</em></li>
+    <li><em>Interviews and Surveys</em></li>
+  </ul>
+  <button class="see_more_button">See Samples</button>
+  <h2>
+    Programming
+  </h2>
+  <ul>
+    <li><em>HTML5, CSS</em></li>
+    <li><em>JavaScript, jQuery</em></li>
+    <li><em>Bootstrap
+  </ul>
+  <button class="see_more_button">See Samples</button>
+</body>
+<form>
+  <br>
+  <h3>Contact me</h3>
+  <label>Your first name</label>
+  <input type="text"></input>
+  <br>
+  <label>Your last name</label>
+  <input type="text"></input>
+  <br>
+  <label>Your email address</label>
+  <input type="text"></input>
+  <br>
+  <label>What services are you interested in?</label>
+  <br>
+  <input type="checkbox" name="option1" value="Bike"></input>
+  <label for="option1"> UX Design</label><br>
+  <input type="checkbox" name="option2" value="Car"></input>
+  <label for="option2"> Research</label><br>
+  <input type="checkbox" name="option3" value="Boat"></input>
+  <label for="option3"> Programming</label><br>
+  <label for="message">What's your message?</label>
+  <textarea name="message" type="textarea" rows="5" cols="15">
+  </textarea>
+  <br>
+  <input type="submit"></input>
+</form>
+<footer>
+</footer>
+<script src="main.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</body>
+
+</html>
